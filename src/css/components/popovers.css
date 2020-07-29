@@ -1,0 +1,32 @@
+.popover {
+  @apply border-0 font-normal text-sm max-w-xs no-underline break-words rounded-lg shadow-lg hidden;
+  @apply z-10;
+  &.popover-show {
+    @apply block;
+  }
+  .popover-title {
+    @apply font-semibold p-2 mb-0 border-b border-solid uppercase rounded-t-lg;
+  }
+  .popover-content {
+    @apply p-2;
+  }
+}
+
+[data-background="light"] {
+  .popover {
+    @apply bg-white text-grey-900 border-grey-200;
+    .popover-title {
+      @apply bg-grey-100 text-grey-900 border-grey-200;
+    }
+  }
+}
+
+[data-background="dark"] {
+  .popover {
+    @apply bg-grey-800 text-white border-grey-700;
+    .popover-title {
+      @apply bg-grey-800 text-white border-grey-700;
+    }
+  }
+}
+

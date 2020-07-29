@@ -1,0 +1,24 @@
+[data-background="light"] {
+  .main {
+    @apply bg-grey-50 text-grey-900;
+    .section-title {
+      .title {
+        @apply text-grey-500;
+      }
+    }
+    code,
+    pre {
+      @apply bg-grey-100;
+    }
+  }
+}
+
+[data-background="dark"] {
+  .main {
+    @apply bg-grey-900 text-white;
+    code,
+    pre {
+      @apply bg-grey-800;
+    }
+  }
+}

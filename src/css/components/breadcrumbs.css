@@ -1,0 +1,15 @@
+.breadcrumbs {
+  @apply w-full flex;
+  .breadcrumb-home {
+    @apply h-3 w-3 stroke-current;
+  }
+  .breadcrumb-arrow {
+    @apply h-3 w-3 mr-2 stroke-current;
+  }
+  > ol {
+    @apply list-none flex flex-row items-center justify-start;
+    > li {
+      @apply flex items-center;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+[data-left-sidebar="light"] {
+  .left-sidebar {
+    @apply text-grey-900;
+    @apply bg-white border-grey-100;
+  }
+}
+
+[data-left-sidebar="dark"] {
+  .left-sidebar {
+    @apply text-white;
+    background: color(theme('colors.grey.900') tint(5%));
+    border-color: color(theme('colors.grey.900') tint(10%));
+  }
+}
+

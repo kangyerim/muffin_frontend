@@ -1,0 +1,25 @@
+.stock_table {
+    margin: 10px 0px 20px 10px;
+    width: 80%;
+}
+.card_grid {
+    padding-right: 16px;
+}
+.text_row {
+    padding-bottom: 8px;
+}
+.card_second {
+    height: 82px;
+    width: 100%;
+    padding-top: 8px;
+}
+.stocks_data {
+    padding-right: 8px;
+}
+.stock_name {
+    margin-left: 10px;
+}
+
+.mystock {
+    float: right;
+}

@@ -1,0 +1,12 @@
+.shadow-outline-red {
+  box-shadow: 0 0 0 3px theme('colors.red.300');
+}
+.shadow-outline-green {
+  box-shadow: 0 0 0 3px theme('colors.green.300');
+}
+.shadow-outline-white {
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 1);
+}
+.shadow-outline-black {
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 1);
+}

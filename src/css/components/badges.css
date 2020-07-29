@@ -1,0 +1,28 @@
+.badge {
+  @apply uppercase font-bold inline-flex text-center;
+  &.badge-default {
+    @apply text-xs px-2 py-1;
+  }
+  &.badge-sm {
+    @apply text-2xs px-2 py-0;
+  }
+  &.badge-lg {
+    @apply text-xs px-2 py-2;
+  }
+  &.badge-circle {
+    @apply text-xs h-5 w-5 inline-flex items-center justify-center rounded-full;
+    @apply p-0 leading-none !important;
+    &.badge-sm {
+      @apply text-xs h-4 w-4 inline-flex items-center justify-center rounded-full;
+    }
+    &.badge-lg {
+      @apply text-xs h-6 w-6 inline-flex items-center justify-center rounded-full;
+    }
+  }
+  &.badge-rounded {
+    @apply rounded-lg;
+  }
+  &.badge-outlined {
+    @apply bg-transparent border border-current;
+  }
+}

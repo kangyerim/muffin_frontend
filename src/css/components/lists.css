@@ -1,0 +1,6 @@
+.list {
+  @apply w-full;
+  .list-item {
+    @apply border-0 border-none;
+  }
+}

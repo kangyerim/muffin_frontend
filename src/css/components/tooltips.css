@@ -1,0 +1,23 @@
+.tooltip {
+  @apply border-0 font-normal text-sm max-w-xs no-underline break-words rounded-lg shadow-lg hidden;
+  @apply z-10;
+  &.tooltip-show {
+    @apply block;
+  }
+  .tooltip-content {
+    @apply p-2;
+  }
+}
+
+[data-background="light"] {
+  .tooltip {
+    @apply bg-white text-grey-900 border-grey-200;
+  }
+}
+
+[data-background="dark"] {
+  .tooltip {
+    @apply bg-grey-800 text-white border-grey-700;
+  }
+}
+

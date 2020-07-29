@@ -1,0 +1,32 @@
+.board_table tr td {
+    text-align: center;
+}
+
+.schema {
+    height: 40px;
+}
+
+.board_table tr {
+    height: 30px;
+}
+
+.board_table {
+    width : 1000px;
+    border: black 1px solid;
+
+}
+.input_text {
+    text-align: left;
+}
+.pagination {
+    text-align: center;
+}
+.board_input {
+    width : 1000px;
+}
+.buttons {
+    padding-left: 600px;
+}
+.board_input th {
+    padding-right: 20px;
+}
